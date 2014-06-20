@@ -29,7 +29,7 @@ showsWait = async.before (callback) ->
   jQuery('img#wait').show()
   callback()
 hidesWait = async.after (callback) ->
-  jQuery('img#wait').show()
+  jQuery('img#wait').hide()
   callback()
   
 myFunnyObject =
